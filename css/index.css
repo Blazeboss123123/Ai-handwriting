@@ -1,0 +1,28 @@
+#container {
+    display: grid;
+    height: 100px;
+    grid-template-rows: 30px 1fr;
+    grid-template-columns: minmax(100px,200px) 1fr;
+  }
+  
+
+  #sidebar {
+    font-size: large;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    padding:10px;
+
+  }
+  
+  #chat {
+    background-color: yellow;
+    height: 95vh;
+  }
+
+.font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:azure;
+
+}
+
+ 
